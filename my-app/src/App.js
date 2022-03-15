@@ -8,11 +8,10 @@ import {Template} from "./components/Template";
 const App = () => {
   return (
     <div className="App">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Template>
-          <h1>헬로 월드</h1></Template>
+        <h1>
+          ToDo List
+        </h1>
+        <Template></Template>
     </div>
   );
 }
